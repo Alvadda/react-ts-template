@@ -1,5 +1,5 @@
+import { VFC } from 'react'
 import './style/style.scss'
 
-export const App = () => {
-  return <h1>React TypeScript Template</h1>
-}
+export const App: VFC = () => <h1>React TypeScript Template </h1>
+
